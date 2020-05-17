@@ -1,0 +1,53 @@
+@font-face{
+    font-family: Nssa;
+    src: url(./font/setofont.ttf);
+    /* font-family: Nssa-ex;
+    src: url(./font/setofont-ex.ttf); */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:微軟正黑體;  
+    box-sizing: border-box;    
+}
+
+nav {
+    display:grid;
+    grid-template-columns: 20% 80%;
+    padding: 25px;
+}
+
+#logo span{
+    font-family: Nssa;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#logo{
+    align-items: center;
+    text-align: center;
+}
+
+section{
+    padding: 5px 30px;
+}
+
+#nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+#nav a{
+    text-decoration: none;
+    color: limegreen;
+    font-size: 20px;
+    transition:0.3s;
+}
+
+#nav a:hover{
+    color: blueviolet;
+    font-size: 22px;
+}

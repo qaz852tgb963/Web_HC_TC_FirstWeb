@@ -14,7 +14,7 @@
 
 nav {
     display:grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 20% 50%;
     padding: 25px;
 
     position: fixed;
@@ -40,7 +40,7 @@ section{
 
 #nav{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
 }
@@ -65,5 +65,58 @@ section{
     background-position: center;
     /* vh螢幕高度 */
     height: 100vh;
+
+    display: grid;
+
+    color: white;
+
+    text-align: center;
+    align-items: center;
+}
+
+#banner div{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#banner div h1{
+    text-shadow:  0.1em 0.1em 0.2em #333;
+    font-family: Nssa;
+    font-size: 100px;
+}
+
+#banner div h4{
+    text-shadow:  0.1em 0.1em 0.2em #333;
+    font-family: Nssa;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.Nssa{    
+    font-family: Nssa;
+}
+
+#about > div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+}
+
+#about > div .img{
+
+    background-image: url(./img/t3tz67q.jpg);
+    /* 填滿 */
+    background-size: cover;
+    /* 置中 */
+    background-position: center;
+    /* vh螢幕高度 */
+    height: 500px;
 
 }

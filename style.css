@@ -16,6 +16,11 @@ nav {
     display:grid;
     grid-template-columns: 20% 80%;
     padding: 25px;
+
+    position: fixed;
+    top: 0;
+    background-color: #a8a8a890;
+    width: 100%;
 }
 
 #logo span{
@@ -42,7 +47,7 @@ section{
 
 #nav a{
     text-decoration: none;
-    color: limegreen;
+    color: #a9eb53;
     font-size: 20px;
     transition:0.3s;
 }
@@ -50,4 +55,15 @@ section{
 #nav a:hover{
     color: blueviolet;
     font-size: 22px;
+}
+
+#banner {
+    background-image: url(./img/noodles.jpg);
+    /* 填滿 */
+    background-size: cover;
+    /* 置中 */
+    background-position: center;
+    /* vh螢幕高度 */
+    height: 100vh;
+
 }
